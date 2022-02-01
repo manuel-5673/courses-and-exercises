@@ -1,0 +1,50 @@
+---
+title: "3 - Data visualization (exercises)"
+output: html_notebook
+---
+
+These are the exercises of the chapter 3 of *R for Data Science*
+
+```{r}
+library(tidyverse)
+```
+
+
+##3.2 - First steps
+
+1. Run `ggplot(data = mpg)`. What do you see?
+
+```{r}
+ggplot(data = mpg)
+```
+
+We can observe an empty "canvas", that is, the area on which we cad add layers
+to create a plot.
+
+2. How many rows are in `mpg`? How many columns?
+
+
+
+3. What does the `drv` variable describe?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

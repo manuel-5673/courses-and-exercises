@@ -1,0 +1,54 @@
+---
+title: "3 - Data visualization (examples)"
+output: html_notebook
+---
+
+The third chapter introduces the use of `ggplot` for data visualization (the
+first two chapters are an introduction to the book).
+
+It's required to have `tidyverse` installed to run this notebook:
+
+```{r}
+library(tidyverse)
+```
+
+## 3.2 - First steps
+
+We'll use the `mpg` dataset (included in the `ggplot` package)
+
+```{r}
+mpg
+```
+
+To create a plot, we'd use:
+
+```{r}
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy))
+```
+
+* `ggplot()` creates a coordinate system.
+* `geom_point()` adds the geom of scatter plot.
+
+The most basic template for graphics with `ggplot` is
+
+```
+ggplot(data = <DATA>) +
+  <GEOM_FUNCTION>(mapping = aes(<MAPPINGS>))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
